@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -40,4 +41,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation (platform(libs.firebase.bom))
+    implementation (libs.firebase.analytics)
+
+    // glide
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
+    implementation (libs.picasso)
+    implementation (libs.circleimageview)
+    implementation (libs.recyclerview.selection)
+    implementation (libs.recyclerview)
+    implementation (libs.cardview)
+    implementation (libs.firebase.database)
+    implementation (libs.firebase.ui.database)
 }

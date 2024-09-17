@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item android:id="@+id/menuWaterTemp"
+        android:icon="@drawable/temp"
+        android:title="Water Temperature"/>
+
+    <item android:id="@+id/menuTurbidity"
+        android:icon="@drawable/ic_sensor"
+        android:title="Turbidity Value"/>
+
+    <item android:id="@+id/menuTds"
+        android:icon="@drawable/ic_sensor"
+        android:title="TDS Value"/>
+
+    <item android:id="@+id/menuWaterLevel"
+        android:icon="@drawable/water"
+        android:title="Water Level"/>
+
+    <item android:id="@+id/menuPump"
+        android:icon="@drawable/pump"
+        android:title="Pump Info"/>
+
+    <item android:id="@+id/menuFood"
+        android:icon="@drawable/food"
+        android:title="Food Info"/>
+
+    <item android:id="@+id/menuHistory"
+        android:icon="@drawable/history"
+        android:title="History"/>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"/>
+
+    <item android:id="@+id/menuExit"
+        android:icon="@drawable/ic_switch"
+        android:title="Exit"/>
+
+</menu>

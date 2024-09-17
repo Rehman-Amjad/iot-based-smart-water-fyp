@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "909576695200",
+    "firebase_url": "https://iot-based-biofloc-aquaculture-default-rtdb.firebaseio.com",
+    "project_id": "iot-based-biofloc-aquaculture",
+    "storage_bucket": "iot-based-biofloc-aquaculture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909576695200:android:daed432c070e8fec89c8c5",
+        "android_client_info": {
+          "package_name": "com.technogenis.iotbasedsmartwater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEKyd5En8MTv34eq1Miek7ocnpX0LbIRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

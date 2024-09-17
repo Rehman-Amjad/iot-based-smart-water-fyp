@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IoT based Smart Water</string>
+    <string name="gif_image">GIF image</string>
+    <string name="splash_title">IoT based Smart Water Quality \nPrediction for Biofloc\n Aquaculture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">Todo</string>
 </resources>
