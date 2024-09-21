@@ -99,7 +99,7 @@ public class FoodInfoFragment extends Fragment {
 
     private void startTimerAnimation() {
         // CountDownTimer for 30 seconds
-        new CountDownTimer(30000, 1000) {
+        new CountDownTimer(15000, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 // Update the timer TextView

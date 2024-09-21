@@ -24,6 +24,8 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:src="@drawable/food_tray"
+        android:scaleType="fitXY"
         android:contentDescription="@string/todo" />
 
 
@@ -33,6 +35,7 @@
         android:orientation="horizontal"
         android:layout_gravity="center"
         android:gravity="center|start"
+        android:layout_marginTop="10dp"
         >
 
         <ImageView

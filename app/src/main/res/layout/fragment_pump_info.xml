@@ -24,6 +24,8 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:src="@drawable/water_pump"
+        android:scaleType="fitXY"
         android:contentDescription="@string/todo" />
 
 
@@ -32,6 +34,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:gravity="center|start"
         >
 
