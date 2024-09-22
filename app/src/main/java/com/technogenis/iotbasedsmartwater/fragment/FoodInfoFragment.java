@@ -110,6 +110,7 @@ public class FoodInfoFragment extends Fragment {
                 timerText.startAnimation(animFadeOut);
             }
 
+            @SuppressLint("SetTextI18n")
             public void onFinish() {
                 // Timer completed, show message
                 timerText.setText("Timer: 0s");
